@@ -21,9 +21,13 @@ public class LineComp {
 		
 		if(LineLength1==LineLength2)
 			System.out.println("Both lines are equal");
+		else if(LineLength1>LineLength2)
+		{
+			System.out.println("Length of line1 is greater than line2");
+		}
 		else
 		{
-			System.out.println("Both lines are not equal");
+			System.out.println("Length of line2 is greater than line1");
 		}
 	}
 
